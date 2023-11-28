@@ -1,0 +1,16 @@
+.banner {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  height: 300px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  & .detalles {
+    position: absolute;
+  }
+}
+button:hover {
+  background-color: #02401d;
+}
